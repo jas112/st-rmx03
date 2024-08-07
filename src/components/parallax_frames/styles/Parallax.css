@@ -151,7 +151,7 @@
 .parallax-background{
     width:100%;
     height: 800px;
-    /* background-image: url('images/star_field1C.png'); */
+    background-image: url('../../../assets/images/hdrParallax_imgs/star_field1C.png');
     background-size: 400px auto;
     background-repeat: repeat;
     /* border: 1px solid lime; */
@@ -198,13 +198,13 @@
 }
 
 .stars {
-    background:#000 url('../../../assets/images/') repeat top center;
+    /* background:#000 url('../../../assets/images/') repeat top center; */
     z-index:0;
     /* border: 1px solid lime; */
 }
 
 .twinkling{
-    background:transparent url('../../../assets/images/') repeat top center;
+    /* background:transparent url('../../../assets/images/') repeat top center; */
     z-index:1;
 
     -moz-animation:move-twink-back 200s linear infinite;
